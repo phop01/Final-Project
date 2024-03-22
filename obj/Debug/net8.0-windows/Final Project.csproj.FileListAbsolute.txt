@@ -1,0 +1,34 @@
+D:\oop\Final Project\bin\Debug\net8.0-windows\Final Project.exe
+D:\oop\Final Project\bin\Debug\net8.0-windows\Final Project.deps.json
+D:\oop\Final Project\bin\Debug\net8.0-windows\Final Project.runtimeconfig.json
+D:\oop\Final Project\bin\Debug\net8.0-windows\Final Project.dll
+D:\oop\Final Project\bin\Debug\net8.0-windows\Final Project.pdb
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final_Project.Form1.resources
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final_Project.Properties.Resources.resources
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.csproj.GenerateResource.cache
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.AssemblyInfoInputs.cache
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.AssemblyInfo.cs
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.csproj.CoreCompileInputs.cache
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.dll
+D:\oop\Final Project\obj\Debug\net8.0-windows\refint\Final Project.dll
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.pdb
+D:\oop\Final Project\obj\Debug\net8.0-windows\Final Project.genruntimeconfig.cache
+D:\oop\Final Project\obj\Debug\net8.0-windows\ref\Final Project.dll
+D:\oop\Final Project0\bin\Debug\net8.0-windows\Final Project.exe
+D:\oop\Final Project0\bin\Debug\net8.0-windows\Final Project.deps.json
+D:\oop\Final Project0\bin\Debug\net8.0-windows\Final Project.runtimeconfig.json
+D:\oop\Final Project0\bin\Debug\net8.0-windows\Final Project.dll
+D:\oop\Final Project0\bin\Debug\net8.0-windows\Final Project.pdb
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final_Project.Form1.resources
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final_Project.Properties.Resources.resources
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.csproj.GenerateResource.cache
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.AssemblyInfoInputs.cache
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.AssemblyInfo.cs
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.csproj.CoreCompileInputs.cache
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.dll
+D:\oop\Final Project0\obj\Debug\net8.0-windows\refint\Final Project.dll
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.pdb
+D:\oop\Final Project0\obj\Debug\net8.0-windows\Final Project.genruntimeconfig.cache
+D:\oop\Final Project0\obj\Debug\net8.0-windows\ref\Final Project.dll
