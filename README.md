@@ -18,7 +18,6 @@ classDiagram
 
     }
     class Data{
-      +String beakColor
       +string name
       +string last_name
       +int age
