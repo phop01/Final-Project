@@ -17,7 +17,7 @@ namespace Final_Project
             string content = "";
             foreach(Data i in data)
             {
-                content += i.name + "," + i.last_name + "," + i.gender + "," +i.age + "," + i.weight + "," + i.height + "," + i.GetBMI() + "," + i.BMILevel()+"\n";
+                content += i.namedata + "," + i.last_name + "," + i.gender + "," +i.age + "," + i.weight + "," + i.height + "," + i.GetBMI() + "," + i.BMILevel()+"\n";
             }
             try
             {

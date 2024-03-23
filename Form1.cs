@@ -23,14 +23,12 @@ namespace Final_Project
             //สร้าง อ็อบเจ็คใหม่ทุกครั้งเมื่อทำการกดปุ่มนี้
             data = new Data();
             //ตั้งค่าข้อมูลให้กับ อ็อบเจ้ค
-            data.name = name.Text;
+            data.namedata = name.Text;
             data.last_name = last_name.Text;
             data.age = int.Parse(age.Text);
             data.gender = gender.Text;
             data.weight = double.Parse(WeightTB.Text);
             data.height = double.Parse(HeightTB.Text);
-
-            //เรียกใช้ฟังก์ชัน GetBMI() และฟอร์แมตให้เป็นตัวเลขทศนิยม 2 ตำแหน่ง
             BMILabel.Text = data.GetBMI().ToString("0.00");
 
             //เรียกใช้ฟังก์ชัน BMILevel() เพื่อทราบค่าเกณฑ์
@@ -43,7 +41,7 @@ namespace Final_Project
             //เพิ่มอ็อบเจ็ค data เข้าไปใน listdata
             Listdata.Add(data);
             //นำข้อมูลไปแสดงบน ตาราง datagridview 
-            dataView.Rows.Add(data.name, data.last_name, data.age, data.gender, data.weight, data.height, data.GetBMI().ToString("0.00"), data.BMILevel());
+            dataView.Rows.Add(data.namedata, data.last_name, data.age, data.gender, data.weight, data.height, data.GetBMI().ToString("0.00"), data.BMILevel());
 
         }
 
