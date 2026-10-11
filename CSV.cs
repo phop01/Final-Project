@@ -8,8 +8,8 @@ namespace Final_Project
 {
     internal class CSV
     {
-        //ที่อยู่ของไฟล์
-        private string path = @"D:\oop\Final Project\dataBMI.csv";
+        //ที่อยู่ของไฟล์ (บันทึกไว้ในโฟลเดอร์เดียวกับตัวโปรแกรม)
+        private string path = Path.Combine(AppContext.BaseDirectory, "dataBMI.csv");
 
         public bool SavetoFile(List<Data> data)
         {

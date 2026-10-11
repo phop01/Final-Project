@@ -1,4 +1,4 @@
-using System.Data;
+﻿using System.Data;
 using System.Windows.Forms;
 
 namespace Final_Project
@@ -11,18 +11,18 @@ namespace Final_Project
         {
             InitializeComponent();
         }
-        //��ͺ�� data
+        //อ็อบเจ็ค data
         Data data;
-        //List�ͧ��ͺ�� data
+        //Listของอ็อบเจ็ค data
         List<Data> Listdata = new List<Data>();
-        //��ͺ�� CSV ��������¹���
+        //อ็อบเจ็ค CSV เอาไว้เขียนไฟล์
         CSV CSV = new CSV();
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //���ҧ ��ͺ������ء��������ͷӡ�á��������
+            //สร้าง อ็อบเจ็คใหม่ทุกครั้งเมื่อทำการกดปุ่มนี้
             data = new Data();
-            //��駤�Ң��������Ѻ ��ͺ��
+            //ตั้งค่าข้อมูลให้กับ อ็อบเจ้ค
             data.namedata = name.Text;
             data.last_name = last_name.Text;
             data.age = int.Parse(age.Text);
@@ -31,16 +31,16 @@ namespace Final_Project
             data.height = double.Parse(HeightTB.Text);
             BMILabel.Text = data.GetBMI().ToString("0.00");
 
-            //���¡��ѧ��ѹ BMILevel() ���ͷ�Һ���ࡳ��
+            //เรียกใช้ฟังก์ชัน BMILevel() เพื่อทราบค่าเกณฑ์
             LevelLabel.Text = data.BMILevel();
-            //�ʴ��ٻ�Ҿ������˹ѡ
+            //แสดงรูปภาพตามน้ำหนัก
             DisplayPicture.Image = data.DisplayImage();
-            //�ʴ���͸Ժ��
+            //แสดงคำอธิบาย
             scrip.Text = data.Description();
             
-            //������ͺ�� data ����� listdata
+            //เพิ่มอ็อบเจ็ค data เข้าไปใน listdata
             Listdata.Add(data);
-            //�Ӣ�������ʴ��� ���ҧ datagridview 
+            //นำข้อมูลไปแสดงบน ตาราง datagridview 
             dataView.Rows.Add(data.namedata, data.last_name, data.age, data.gender, data.weight, data.height, data.GetBMI().ToString("0.00"), data.BMILevel());
 
         }
@@ -48,7 +48,7 @@ namespace Final_Project
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //����ź�����ŷ���͡ �ٻ ࡳ�� ��ФӺ�����
+            //ปุ่มลบข้อมูลที่กรอก รูป เกณฑ์ และคำบรรยาย
             name.Text = string.Empty;
             last_name.Text = string.Empty;
             gender.Text = string.Empty;
@@ -65,7 +65,7 @@ namespace Final_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //�ӡ�úѹ�֡������ŧ���
+            //ทำการบันทึกข้อมูลลงไฟล์
             CSV.SavetoFile(Listdata);
         }
     }

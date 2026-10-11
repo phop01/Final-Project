@@ -53,19 +53,19 @@ namespace Final_Project
                 level = "น้ำหนักต่ำกว่าเกณฑ์";
                 return level;
             }
-            else if(bmi >=18.5 && bmi <= 22.90)
+            else if (bmi < 23)
             {
                 get_index = 1;
                 level = "น้ำหนักสมส่วน";
                 return level;
             }
-            else if (bmi >= 23 && bmi <= 24.90)
+            else if (bmi < 25)
             {
                 get_index = 2;
                 level = "น้ำหนักเกินมาตรฐาน";
                 return level;
             }
-            else if (bmi >= 25 && bmi <= 29.90)
+            else if (bmi < 30)
             {
                 get_index = 3;
                 level = "น้ำหนักอยู่ในเกณฑ์อ้วน";
